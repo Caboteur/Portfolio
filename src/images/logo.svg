@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 90 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(0.311683,0,0,0.311683,-44.266,-16.1829)">
+        <g transform="matrix(1,0,0,1.11997,-7.10543e-15,-29.6923)">
+            <path d="M243.058,271.254L252.621,248.244L310.293,247.497L320.005,272.299C293.611,284.379 267.96,284.079 243.058,271.254Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:5.46px;"/>
+        </g>
+        <g transform="matrix(1.08101,0,0,1.06511,-27.4026,-28.9805)">
+            <ellipse cx="285.253" cy="228.496" rx="45.226" ry="43.565" style="fill:rgb(235,235,235);stroke:black;stroke-width:6.94px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-4.5134,-0.994476)">
+            <path d="M328.203,189.992C328.29,189.942 328.377,189.916 328.466,189.916C328.554,189.916 328.642,189.942 328.728,189.992L337.799,189.992L338.143,237.574L328.902,237.286C328.759,237.426 328.614,237.498 328.466,237.498C326.671,237.498 325.215,226.838 325.215,213.707C325.215,202.001 326.372,192.259 327.895,190.282L328.203,189.992Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:5.8px;"/>
+            <g transform="matrix(1.69388,0,0,1.01434,-236.593,-4.19826)">
+                <ellipse cx="339.099" cy="214.816" rx="1.874" ry="23.37" style="fill:rgb(235,235,235);stroke:black;stroke-width:4.15px;"/>
+            </g>
+        </g>
+        <g transform="matrix(-0.999688,0.0249958,-0.0249958,-0.999688,573.037,418.356)">
+            <path d="M328.203,189.992C328.29,189.942 328.377,189.916 328.466,189.916C328.554,189.916 328.642,189.942 328.728,189.992L337.799,189.992L338.143,237.574L328.902,237.286C328.759,237.426 328.614,237.498 328.466,237.498C326.671,237.498 325.215,226.838 325.215,213.707C325.215,202.001 326.372,192.259 327.895,190.282L328.203,189.992Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:5.8px;"/>
+            <g transform="matrix(1.69388,0,0,1.01434,-236.593,-4.19826)">
+                <ellipse cx="339.099" cy="214.816" rx="1.874" ry="23.37" style="fill:rgb(235,235,235);stroke:black;stroke-width:4.15px;"/>
+            </g>
+        </g>
+        <g transform="matrix(0.00290428,-0.999996,0.962349,0.00279494,74.506,499.926)">
+            <path d="M328.203,189.992C328.29,189.942 328.377,189.916 328.466,189.916C328.554,189.916 328.642,189.942 328.728,189.992L337.799,189.992L338.143,237.574L328.902,237.286C328.759,237.426 328.614,237.498 328.466,237.498C326.671,237.498 325.215,226.838 325.215,213.707C325.215,202.001 326.372,192.259 327.895,190.282L328.203,189.992Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:5.91px;"/>
+            <g transform="matrix(1.69388,0,0,1.01434,-236.593,-4.19826)">
+                <ellipse cx="339.099" cy="214.816" rx="1.874" ry="23.37" style="fill:rgb(235,235,235);stroke:black;stroke-width:4.19px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-1.79293,-3.88469)">
+            <ellipse cx="283.101" cy="219.483" rx="25.25" ry="25.325" style="fill:rgb(235,235,235);stroke:black;stroke-width:5.8px;"/>
+        </g>
+        <path d="M243.093,274.646L205.927,291.081C247.264,349.227 308.523,350.285 356.832,293.883L321.908,275.206" style="fill:rgb(235,235,235);stroke:black;stroke-width:5.8px;"/>
+        <g transform="matrix(18.8829,0,0,24.8166,-1780.55,-5830.45)">
+            <text x="101.786px" y="249.325px" style="font-family:'BirchStd', 'Birch Std', cursive;font-size:12px;fill:white;">{</text>
+        </g>
+        <g transform="matrix(-18.8824,-0.14527,0.194148,-25.2355,2295.72,6440.87)">
+            <text x="101.786px" y="249.325px" style="font-family:'BirchStd', 'Birch Std', cursive;font-size:12px;fill:white;">{</text>
+        </g>
+    </g>
+</svg>
