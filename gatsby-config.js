@@ -7,11 +7,11 @@ try {
 
 // Overwrite the Contentful config with environment variables if they exist
 contentfulConfig = {
-  spaceId: process.env.CONTENTFUL_SPACE_ID || contentfulConfig.spaceId,
-  accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN || contentfulConfig.accessToken,
+  spaceId: "xtml4dwibgxh",
+  accessToken: "b948d4b68a4bd41e7e2f17cf2c6eeed4eed2b388e86160bd30821b1cf0896c3d",
 }
 
-const { spaceId, accessToken } = contentfulConfig
+const { "xtml4dwibgxh", "b948d4b68a4bd41e7e2f17cf2c6eeed4eed2b388e86160bd30821b1cf0896c3d" } = contentfulConfig
 
 if (!spaceId || !accessToken) {
   throw new Error(
