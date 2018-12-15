@@ -11,7 +11,7 @@ contentfulConfig = {
   accessToken: "b948d4b68a4bd41e7e2f17cf2c6eeed4eed2b388e86160bd30821b1cf0896c3d",
 }
 
-const { "xtml4dwibgxh", "b948d4b68a4bd41e7e2f17cf2c6eeed4eed2b388e86160bd30821b1cf0896c3d" } = contentfulConfig
+const { spaceId, accessToken } = contentfulConfig
 
 if (!spaceId || !accessToken) {
   throw new Error(
