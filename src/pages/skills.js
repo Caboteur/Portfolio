@@ -14,7 +14,7 @@ class Skills extends React.Component {
 
     return (
     <div>
-         <img className="skills-wrapper" style={{maxWidth:'500px', width:'50%', margin:'auto', display:'block'}} src={skills} />
+         <img className="skills-wrapper" style={{border: '2px solid white', maxWidth:'500px', width:'50%', margin:'auto', display:'block'}} src={skills} />
     </div>
     )
   }

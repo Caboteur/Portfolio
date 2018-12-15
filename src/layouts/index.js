@@ -42,8 +42,8 @@ class Template extends React.Component {
 
             {children()}
 
-            <img className='logoLN' src={logoLN} />
-            <img  className='logoMessenger' src={messenger} />
+            <a href="https://www.linkedin.com/in/adrien-blanchot-24825487"><img className='logoLN' src={logoLN} /></a>
+              <a href="https://m.me/Ad-Blanchot"> <img  className='logoMessenger' src={messenger} /> </a>
 </div>
           </Background>
 
