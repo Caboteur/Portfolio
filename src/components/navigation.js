@@ -17,7 +17,8 @@ class Navigation extends React.Component {
 
   handleClick(e) {
     this.setState({
-             point: e.target.name
+             point: e.target.name,
+             face: "none"
           });
 
   }
