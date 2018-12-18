@@ -2,8 +2,7 @@ import React from 'react'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import ArticlePreview from '../components/article-preview'
-import Motion from '../images/motion-web.svg'
-import skills from '../images/skillsMap.svg'
+import skillsMaps from '../images/skillsMap.svg'
 import styled from './skills.css'
 
 class Skills extends React.Component {
@@ -14,7 +13,7 @@ class Skills extends React.Component {
 
     return (
     <div>
-         <img className="skills-wrapper" src={skills} />
+         <img className="skills-wrapper" src={skillsMap} />
     </div>
     )
   }
