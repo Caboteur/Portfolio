@@ -29,7 +29,8 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <meta name="viewport" content="width=device-width, user-scalable=no">
+          <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
           {this.props.headComponents}
           {css}
         </head>
