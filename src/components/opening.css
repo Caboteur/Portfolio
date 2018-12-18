@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+.fBJgyH {
+opacity: 1;
+}
+
+
 .close:hover {
   opacity: 1;
 }
@@ -19,32 +24,42 @@
 }
 
 #opening-introduction{
-  z-index: 5;
+  z-index: 8;
   overflow: auto;
   max-width: 580px;
-  background: #184176;
+  background:#2e496c;
   font-family: 'Lato', sans-serif;
   color: #fff1e0;
 }
 
 .img-opening{
-  width: 50%;
   display: inherit;
   margin: auto;
+  margin-top: 25px;
 }
 
 .div-para{
-background:#184176;
+background:#2e496c;
 margin: auto;
 margin: 20px;
 margin: auto;
 margin-top: 20px;
 margin-bottom: 20px;
-color: #fff1e0;
+color: #2e496c;
 padding: 79px;
 }
 
 .border{
-  border: 20px solid #112b4d;
+  border: 20px solid #fff1e0;
   min-height: 100%;
+}
+
+
+@media screen and (max-width: 640px) {
+
+  #opening-introduction{
+    z-index: 8;
+    width:100%;
+  }
+
 }

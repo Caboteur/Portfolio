@@ -2,11 +2,25 @@
 
 .typewriter h1 {
   width: 70%;
-  color:#fff1e0;
+  color:white;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   text-align: center;
   font-family: 'Lora', serif;
   font-size: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .typewriter h1 {
+    width: 70%;
+    color:white;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    margin-top: 25%;
+  }
 }

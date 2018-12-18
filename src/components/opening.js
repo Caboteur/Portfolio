@@ -27,6 +27,12 @@ const Apptitle = styled.h1`
  `;
 
 export default class Opening extends React.Component {
+  constructor(){
+    super();
+    this.state= {
+      Wid:"50%",
+    }
+  }
 
 
   render() {
@@ -36,8 +42,9 @@ export default class Opening extends React.Component {
     }
 
 
+
     return (
-      <Introduction  id="opening-introduction" style={style}>
+      <Introduction value={this.props.value} id="opening-introduction" style={style}>
         <div className="border">
        <Close className="close" onClick={this.props.click}></Close>
 
@@ -46,9 +53,9 @@ export default class Opening extends React.Component {
 
         <div className="div-para">{this.props.para}</div>
 
-        <img className="img-opening" src={this.props.img} />
-        <img className="img-opening" src={this.props.img1} />
-        <img className="img-opening" style={{marginTop: "20%"}} src={this.props.img2} />
+        <img style={{width: this.state.Wid}} className="img-opening" src={this.props.img} />
+        <img style={{width: this.state.Wid}} className="img-opening" src={this.props.img1} />
+        <img style={{width: this.state.Wid}} className="img-opening" style={{marginTop: "20%"}} src={this.props.img2} />
 
         </div>
 

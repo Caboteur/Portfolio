@@ -40,7 +40,8 @@ componentDidMount(){
 
   MoreProject(){
     const TotalNum = this.state.MyList.length
-    if (this.state.Count < TotalNum) {
+    if (this.state.Count < 4 ) {
+      console.log(this.state.Count)
     this.setState({Count: this.state.Count + 1});
     this.setState({Img:this.state.MyList[this.state.Count + 1].node.heroImage.file.url});
     this.setState({View:this.state.MyList[this.state.Count + 1].node.title});
@@ -77,7 +78,7 @@ componentDidMount(){
     return (
       <div>
 
-       <Opening open={this.state.open} tile={this.state.View} para={this.state.Object} click={this.ChangeState.bind(this)} img={this.state.imgDes} img1={this.state.imgDes2} />
+       <Opening value={this.state.Count} open={this.state.open} tile={this.state.View} para={this.state.Object} click={this.ChangeState.bind(this)} img={this.state.imgDes} img1={this.state.imgDes2} />
 
         <Helmet className="Helmet-title" title={siteTitle} />
 

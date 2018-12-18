@@ -16,9 +16,9 @@ export default class RootIndex extends React.Component {
 
          {this.props.name === "Les Saisons" ?
           (
-     <video src={this.props.image} style={{cursor: "pointer" , boxShadow: "rgba(255, 255, 255, 0.39) -2px 0px 20px 13px", height: "40vh", margin: "auto", display: "block", marginTop:"20%"}} title={this.props.title} type="video/mov" preload controls />
+     <video src={this.props.image} style={{cursor: "pointer" , boxShadow: "rgb(255, 255, 255) 0px -1px 20px 3px", height: "40vh", margin: "auto", display: "block", marginTop:"20%"}} title={this.props.title} type="video/mov" preload controls />
     ) : (
-      <img style={{boxShadow: "rgba(255, 255, 255, 0.39) -2px 0px 20px 20px", cursor: "pointer", maxHeight:"60vh", margin:"auto", display:"block", marginTop:"10%"}} src={this.props.image} />
+      <img className="img-container" src={this.props.image} />
     )}
 
          <h1 className="title">{this.props.name}</h1>
