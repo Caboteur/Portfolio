@@ -8,6 +8,7 @@ import styled from 'styled-components'
 import logoLN from '../images/logoLN.svg'
 import messenger from '../images/messenger.svg'
 import wave from '../images/wave.svg'
+import {Helmet} from "react-helmet";
 
 const Background = styled.div`
    width: 100%;
@@ -33,19 +34,18 @@ class Template extends React.Component {
 
 
 
-          <Background >
+
 
           <Navigation />
           <span></span>
 
-    <div className="background">
+            <div className="background">
 
             {children()}
 
             <a href="https://www.linkedin.com/in/adrien-blanchot-24825487"><img className='logoLN' src={logoLN} /></a>
               <a href="https://m.me/Ad-Blanchot"> <img  className='logoMessenger' src={messenger} /> </a>
-</div>
-          </Background>
+            </div>
 
 
 

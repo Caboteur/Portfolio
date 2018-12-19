@@ -1,6 +1,8 @@
 body{
   margin: 0px;
   font-family: 'Quicksand', sans-serif;
+  background: #112b4d;
+  overflow: hidden;
 }
 
 @font-face {
@@ -22,133 +24,6 @@ body{
   position: fixed;
   bottom: 8px;
   left: 8px;
-}
-
-
-
-body {
-  margin: 0;
-  overflow: hidden;
-}
-
-
-.background span {
-  z-index: -1;
-  width: 20vmin;
-  height: 20vmin;
-  border-radius: 20vmin;
-  backface-visibility: hidden;
-  position: absolute;
-  animation-name: move;
-  animation-duration: 6s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.background span:nth-child(10) {
-  color: #112b4d;
-  top: 43%;
-  left: 47%;
-  animation-duration: 15.8s;
-  animation-delay: -6.3s;
-  transform-origin: -21vw -18vh;
-  box-shadow: -40vmin 0 11.3391295215vmin currentColor;
-}
-.background span:nth-child(11) {
-  color: #001e83;
-  top: 60%;
-  left: 39%;
-  animation-duration: 10.4s;
-  animation-delay: -3.4s;
-  transform-origin: -18vw -16vh;
-  box-shadow: 40vmin 0 11.5162725556vmin currentColor;
-}
-.background span:nth-child(12) {
-  color: #001e83;
-  top: 43%;
-  left: 18%;
-  animation-duration: 11.7s;
-  animation-delay: -13.6s;
-  transform-origin: -22vw -14vh;
-  box-shadow: -40vmin 0 9.5950753501vmin currentColor;
-}
-.background span:nth-child(13) {
-  color: #001e83;
-  top: 20%;
-  left: 90%;
-  animation-duration: 10.2s;
-  animation-delay: -15.3s;
-  transform-origin: 23vw -14vh;
-  box-shadow: 40vmin 0 6.1401180136vmin currentColor;
-}
-.background span:nth-child(14) {
-  color: #001e83;
-  top: 32%;
-  left: 77%;
-  animation-duration: 15.2s;
-  animation-delay: -0.4s;
-  transform-origin: 12vw 17vh;
-  box-shadow: 40vmin 0 11.027533161vmin currentColor;
-}
-.background span:nth-child(15) {
-  color: #001e83;
-  top: 99%;
-  left: 6%;
-  animation-duration: 11.4s;
-  animation-delay: -12.6s;
-  transform-origin: 16vw -9vh;
-  box-shadow: -40vmin 0 14.9170134705vmin currentColor;
-}
-.background span:nth-child(16) {
-  color: #001e83;
-  top: 97%;
-  left: 36%;
-  animation-duration: 14.7s;
-  animation-delay: -11.2s;
-  transform-origin: 15vw -22vh;
-  box-shadow: 40vmin 0 14.591343118vmin currentColor;
-}
-.background span:nth-child(17) {
-  color: #001e83;
-  top: 10%;
-  left: 12%;
-  animation-duration: 13.3s;
-  animation-delay: -9.9s;
-  transform-origin: 4vw 8vh;
-  box-shadow: 40vmin 0 10.9630242426vmin currentColor;
-}
-.background span:nth-child(18) {
-  color: #001e83;
-  top: 60%;
-  left: 94%;
-  animation-duration: 10.2s;
-  animation-delay: -11.4s;
-  transform-origin: -22vw 16vh;
-  box-shadow: -40vmin 0 7.5541699045vmin currentColor;
-}
-.background span:nth-child(19) {
-  color: #001e83;
-  top: 29%;
-  left: 92%;
-  animation-duration: 12s;
-  animation-delay: -11.9s;
-  transform-origin: 19vw -7vh;
-  box-shadow: 40vmin 0 13.0517525318vmin currentColor;
-}
-.background span:nth-child(20) {
-  color: #4b469b;
-  top: 81%;
-  left: 64%;
-  animation-duration: 12.3s;
-  animation-delay: -15.6s;
-  transform-origin: -18vw -18vh;
-  box-shadow: -40vmin 0 7.6694841463vmin currentColor;
-}
-
-@keyframes move {
-  100% {
-    transform: translate3d(0, 0, 1px) rotate(360deg);
-  }
 }
 
 .react-bodymovin-container{
@@ -186,10 +61,10 @@ body {
 }
 
 .logoMessenger:hover{
-  width: 6%;
-  position: fixed;
-  bottom: 8px;
-  left: 8px;
+  width: 10%;
+  position: absolute;
+  bottom: 10px;
+  padding: 15px;
 }
 
 
